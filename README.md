@@ -1047,10 +1047,11 @@ You have now set up a Node.js application in a Docker container on nodejsnet net
 
 ***Questions:***
 
-1. What is the output of step 5 above, explain the error? ***(1 mark)*** __The output of step 5 is **Server Error** which is error in executing query. This is because a table mytable was not created yet hence, the Node.js server tried to query a non-existence table. This error also occured because of no connection established between the two networks yet.__
+1. What is the output of step 5 above, explain the error? ***(1 mark)*** <br>
+__The output of step 5 is **Server Error** which is error in executing query. This is because a table mytable was not created yet hence, the Node.js server tried to query a non-existence table. This error also occured because of no connection established between the two networks yet.__
 
-2. Show the instruction needed to make this work. ***(1 mark)***
-   __To create table in database:__
+2. Show the instruction needed to make this work. ***(1 mark)*** <br>
+   __To create table in database:__ <br>
     __1. Enter mysql-container__ <br>
     __2. Enter command USE mydatabase;__ <br>
     __3. Create table mytable__ <br>
