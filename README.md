@@ -1,11 +1,11 @@
 edr n# OSProject Running Containers for Application Development
 
-Group Name: __Fill your team name__. 
+Group Name: __Group 3__. 
 
-Section: __Fill your class section__. 
+Section: __7__. 
 
 Team Mates:
-1. __Fill name__ and __matric no__
+1. __Nurfathin Atirah binti Mohammad Udin 2118168__
 2. __Nur Balqis binti Sazalee 2218348__
 3. __Wan Muhammad Arif bin Wan Azman 2212119__
 4. __Siti Maisarah binti Abdul Aziz 2316456__
@@ -1047,18 +1047,18 @@ You have now set up a Node.js application in a Docker container on nodejsnet net
 
 ***Questions:***
 
-1. What is the output of step 5 above, explain the error? ***(1 mark)*** The output of step 5 is **Server Error** which is error in executing query. This is because a table mytable was not created yet hence, the Node.js server tried to query a non-existence table. This error also occured because of no connection established between the two networks yet.
+1. What is the output of step 5 above, explain the error? ***(1 mark)*** __The output of step 5 is **Server Error** which is error in executing query. This is because a table mytable was not created yet hence, the Node.js server tried to query a non-existence table. This error also occured because of no connection established between the two networks yet.__
 
 2. Show the instruction needed to make this work. ***(1 mark)*** To create table in database:
-    1. Enter mysql-container
-    2. Enter command USE mydatabase;
-    3. Create table mytable
-    4. Insert information
-    5. Exit
-To bridge nodejs-container and mysql-container:
-    1. Create new network named bridgenet
-    2. Connect bridgenet with nodejs-container
-    3. Connect bridgenet with mysql-container
+    __1. Enter mysql-container__
+    __2. Enter command USE mydatabase;__
+    __3. Create table mytable__
+    __4. Insert information__
+    __5. Exit__
+__To bridge nodejs-container and mysql-container:__
+    __1. Create new network named bridgenet__
+    __2. Connect bridgenet with nodejs-container__
+    __3. Connect bridgenet with mysql-container__
 
 ## What to submit
 
